@@ -6,7 +6,6 @@
     "prepare": "husky install",
     "dev": "next dev",
     "lint": "next lint",
-    "commit": "cz",
     "build": "next build",
     "start": "next start"
   },
