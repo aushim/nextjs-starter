@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Router from "next/navigation";
 
 export default function Home() {
   return (
