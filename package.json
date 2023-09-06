@@ -5,7 +5,7 @@
   "scripts": {
     "prepare": "husky install",
     "dev": "next dev",
-    "format": "prettier -w -c -- . .*rc",
+    "format": "prettier -w -c -u --no-error-on-unmatched-pattern -- ./**/* . .*rc",
     "lint": "next lint",
     "build": "next build",
     "start": "next start"
